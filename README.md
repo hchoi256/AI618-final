@@ -16,7 +16,7 @@ python preprocess.py --data_path data/woman-running.mp4 --inversion_prompt ''
 
 
 ## Training and Testing
-
+### SDEdit
 ```bash
 python run_tokenflow_sdedit.py --config_path configs/config_sdedit.yaml
 python run_tokenflow_sdedit.py --config_path configs/config_sdedit_woman.yaml
@@ -31,6 +31,7 @@ python run_tokenflow_sdedit_ours.py --config_path configs2/config_sdedit_man-bas
 python run_tokenflow_sdedit_ours.py --config_path configs2/config_sdedit_poodle.yaml
 ```
 
+### PNP
 ```bash
 python run_tokenflow_pnp.py --config_path configs/config_pnp.yaml
 python run_tokenflow_pnp.py --config_path configs/config_pnp_wolf.yaml
