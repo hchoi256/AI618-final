@@ -1,7 +1,7 @@
 # Enhancing Temporal Consistency in Video Editing through Deliberate Keyframe Selection
 
 ## Introduction
-Recent advancements in text-to-image models have improved image editing, but video editing still struggles with maintaining frame consistency. Current techniques using image diffusion models often lack temporal coherence and rely on selecting keyframes uniformly or from the first frame, which leads to artifacts. To address this, we draw inspiration from SLAM technology, enhancing the keyframe selection scheme of the diffusion model. Instead of traditional methods, we propose selecting keyframes based on the mean square error (MSE) between frames, focusing on those with high differences to improve video continuity.
+Drawing inspiration from SLAM technology, we aim to enhance the video editing capabilities of the diffusion model by improving the keyframe selection scheme. Unlike traditional video editing methods that focus solely on the first frame or select keyframes uniformly, we employ a technique akin to SLAM’s global bundle adjustment. Specifically, we add frames to the keyframe list when the differences between images exceed a certain threshold. Our method improved, reducing warp error from 0.1356 to 0.1338 and increasing CLIP score from 0.208 to 0.210 for PnP. Similarly, SDEdit saw enhancements, with warp error decreasing from 0.1788 to 0.1772 and CLIP score rising from 0.2108 to 0.2125
 
 ## Installation
 ### Environment
