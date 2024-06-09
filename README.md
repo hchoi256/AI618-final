@@ -1,6 +1,4 @@
-# AI 618: Enhancing TokenFlow 
-
-[//]: # ([![PWC]&#40;https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/aligning-bag-of-regions-for-open-vocabulary/open-vocabulary-object-detection-on-mscoco&#41;]&#40;https://paperswithcode.com/sota/open-vocabulary-object-detection-on-mscoco?p=aligning-bag-of-regions-for-open-vocabulary&#41;)
+# AI 618: TBD
 
 ## Introduction
 Recent advancements in text-to-image models have improved image editing, but video editing still struggles with maintaining frame consistency. Current techniques using image diffusion models often lack temporal coherence and rely on selecting keyframes uniformly or from the first frame, which leads to artifacts. To address this, we draw inspiration from SLAM technology, enhancing the keyframe selection scheme of the diffusion model. Instead of traditional methods, we propose selecting keyframes based on the mean square error (MSE) between frames, focusing on those with high differences to improve video continuity.
