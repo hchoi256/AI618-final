@@ -4,13 +4,18 @@
 Recent advancements in text-to-image models have improved image editing, but video editing still struggles with maintaining frame consistency. Current techniques using image diffusion models often lack temporal coherence and rely on selecting keyframes uniformly or from the first frame, which leads to artifacts. To address this, we draw inspiration from SLAM technology, enhancing the keyframe selection scheme of the diffusion model. Instead of traditional methods, we propose selecting keyframes based on the mean square error (MSE) between frames, focusing on those with high differences to improve video continuity.
 
 ## Installation
-
+### Environment
 ```bash
 conda create -n tokenflow python=3.9 && conda activate tokenflow
 pip install -r requirements.txt
+```
+### Preprocess
+```bash
 python preprocess.py --data_path data/wolf.mp4 --inversion_prompt ''
 python preprocess.py --data_path data/woman-running.mp4 --inversion_prompt ''
 ```
+
+Download `DAVIS.tar.gz`, extract it, and place it under the `gen2024_final` folder.
 
 ## Testing
 ### SDEdit
