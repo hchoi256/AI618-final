@@ -12,8 +12,7 @@ python preprocess.py --data_path data/wolf.mp4 --inversion_prompt ''
 python preprocess.py --data_path data/woman-running.mp4 --inversion_prompt ''
 ```
 
-
-## Training and Testing
+## Testing
 ### SDEdit
 ```bash
 python run_tokenflow_sdedit.py --config_path configs/config_sdedit.yaml
