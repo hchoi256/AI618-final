@@ -15,7 +15,7 @@ python preprocess.py --data_path data/wolf.mp4 --inversion_prompt ''
 python preprocess.py --data_path data/woman-running.mp4 --inversion_prompt ''
 ```
 
-Download [DAVIS.tar.gz](https://github.com/hchoi256/AI618-final/edit/main/README.md), extract it, and place it under the `gen2024_final` folder.
+Download [DAVIS.tar.gz]([https://github.com/hchoi256/AI618-final/edit/main/README.md](https://drive.google.com/file/d/174qMDXXp_55A40SkVSK13mUGQGmeLFnq/view?usp=sharing)), extract it, and place it under the `gen2024_final` folder.
 
 ## Testing
 ### SDEdit
